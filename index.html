@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>21 लाख योजना | LIC अमृतबाल</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#128c7e">
 </head>
 <body>
     <div class="container">
@@ -13,6 +15,13 @@
             <button class="lang-btn active" data-lang="mr">मराठी</button>
             <button class="lang-btn" data-lang="hi">हिंदी</button>
             <button class="lang-btn" data-lang="en">English</button>
+        </div>
+
+        <!-- PWA इन्स्टॉल बटण -->
+        <div class="install-container" id="installContainer" style="display: none;">
+            <button id="pwaInstallBtn" class="btn-install">
+                📲 <span id="installBtnText">ॲप इन्स्टॉल करा</span>
+            </button>
         </div>
 
         <!-- शीर्षक -->
@@ -103,6 +112,11 @@
                     <a href="#" id="whatsappBtn" class="btn-whatsapp" target="_blank">
                         💬 <span id="whatsappText">WhatsApp वर मेसेज करा</span>
                     </a>
+
+                    <!-- WhatsApp शेअर बटण -->
+                    <button id="whatsappShareBtn" class="btn-share" onclick="shareOnWhatsApp()">
+                        👨‍👩‍👧 <span id="shareBtnText">ज्यांना लहान मुले आहेत अशा मित्रांना/नातेवाईकांना पाठवा</span>
+                    </button>
                 </div>
             </div>
         </div>
