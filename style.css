@@ -291,7 +291,7 @@ body {
     text-align: left;
 }
 
-/* ===== पर्याय २: 5 वर्षे प्रीमियम ===== */
+/* ===== हप्ते विभाग ===== */
 .limited-section {
     margin: 28px 0 20px;
     padding: 20px 16px;
@@ -407,7 +407,7 @@ body {
     margin-bottom: 15px;
 }
 
-/* ===== वय सूचना (6-13) ===== */
+/* ===== वय सूचना ===== */
 .age-note {
     background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
     border: 2px dashed #1976d2;
@@ -535,69 +535,19 @@ body {
 
 /* ===== मोबाइल ===== */
 @media (max-width: 600px) {
-    .header h1 {
-        font-size: 1.4rem;
-    }
-
-    .header p {
-        font-size: 0.9rem;
-    }
-
-    .form-body {
-        padding: 20px 15px;
-    }
-
-    .button-group {
-        flex-direction: column;
-    }
-
-    .language-bar {
-        justify-content: center;
-        padding: 10px;
-    }
-
-    .lang-btn {
-        padding: 5px 12px;
-        font-size: 0.85rem;
-    }
-
-    .badge {
-        font-size: 0.75rem;
-        padding: 6px 12px;
-    }
-
-    .result-card .value {
-        font-size: 1.2rem;
-    }
-
-    .result-card.highlight-green .value {
-        font-size: 1.3rem;
-    }
-
-    .mode-amount {
-        font-size: 1.2rem;
-    }
-
-    .limited-section {
-        padding: 16px 12px;
-    }
-
-    .btn-whatsapp {
-        padding: 12px 20px;
-        font-size: 0.95rem;
-    }
-
-    .btn-share {
-        font-size: 0.85rem;
-        padding: 12px 16px;
-    }
-
-    .btn-install {
-        font-size: 0.85rem;
-        padding: 9px 20px;
-    }
-
-    .age-note p {
-        font-size: 0.85rem;
-    }
-}
+    .header h1 { font-size: 1.4rem; }
+    .header p { font-size: 0.9rem; }
+    .form-body { padding: 20px 15px; }
+    .button-group { flex-direction: column; }
+    .language-bar { justify-content: center; padding: 10px; }
+    .lang-btn { padding: 5px 12px; font-size: 0.85rem; }
+    .badge { font-size: 0.75rem; padding: 6px 12px; }
+    .result-card .value { font-size: 1.2rem; }
+    .result-card.highlight-green .value { font-size: 1.3rem; }
+    .mode-amount { font-size: 1.2rem; }
+    .limited-section { padding: 16px 12px; }
+    .btn-whatsapp { padding: 12px 20px; font-size: 0.95rem; }
+    .btn-share { font-size: 0.85rem; padding: 12px 16px; }
+    .btn-install { font-size: 0.85rem; padding: 9px 20px; }
+    .age-note p { font-size: 0.85rem; }
+    }}
